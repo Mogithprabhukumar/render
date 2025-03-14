@@ -110,7 +110,7 @@ server.use(cors({
                 email,
                 password: hashed_password,
                 username,
-                profile_img: 'https://api.dicebear.com/6.x/fun-emoji/svg?seed=Garfield'
+                //profile_img: 'https://api.dicebear.com/6.x/fun-emoji/svg?seed=Garfield'
             }
         });
 
