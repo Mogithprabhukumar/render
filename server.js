@@ -33,7 +33,7 @@ dns.setServers(['8.8.8.8', '8.8.4.4']); // Google DNS
 let passwordRegex = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,20}$/; // regex for password
  server.use(express.json());
 server.use(cors({
-  origin: 'https://blogspace-9ohv.vercel.app', // Replace with your frontend URL
+  origin: 'https://blogspace-9ohv.vercel.app/', // Replace with your frontend URL
   credentials: true, // Allow cookies
 }));
 
